@@ -47,8 +47,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 30 El Potro
-  - line: Rancho Santa Margarita, CA 92688
+   - line: Rancho Santa Margarita, CA 92688
 
 # Credits content
 credits: 'Adapted from <a href="https://github.com/jeromelachaud/freelancer-theme">Jerome Lachaud&#39;s Freelancer Template</a>.'
