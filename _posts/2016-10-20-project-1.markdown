@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 1
+title: New Project
+date: 2016-10-20
+img: comingsoon.jpg
+alt: image-alt
+project-date: October 2016
+client: 
+category: Web Development
+description: Coming soon!
+
+---

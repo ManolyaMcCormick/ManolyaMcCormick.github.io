@@ -1,0 +1,89 @@
+- id: publication1
+  modal-id: 1
+  title: Interactive Freeform Editing Techniques for Large-Scale, Multiresolution Level Set Models
+  authors: M. E. McCormick
+  img: lionEditing.png
+  alt: image-alt
+  pubInfo: Drexel University, December 2012
+  link: img/publications/Manolya_Thesis.pdf
+  description: This dissertation describes techniques and algorithms for interactive freeform editing of large-scale, multiresolution level set models. Algorithms are developed to map intuitive user interactions into level set speed functions producing specific, desired surface movements. Data structures for efficient representation of very high resolution volume datasets and associated algorithms for rapid access and processing of the information within the data structures are explained. A hierarchical, multiresolution representation of level set models that allows for rapid decomposition and reconstruction of the complete full-resolution model is created for an editing framework that allows level-of-detail editing. The traditional level set method is enhanced with techniques to preserve high resolution surface details of evolving level set surfaces, which are utilized for geometric texture transfers between two level set models.
+
+- id: publication2
+  modal-id: 2
+  title: Data Structures for Interactive High Resolution Level-Set Surface Editing
+  authors: M. Eyiyurekli and D. Breen
+  img: saddlebag_inset.jpg
+  alt: image-alt
+  pubInfo: Proceedings of Graphics Interface, May 2011, pp.95-102
+  link: img/publications/GI2011.pdf
+  description: This paper presents data structures that enable interactive editing of large-scale level-set surface models. The new approach utilizes spatial hashing to store a narrow band of voxels around the level-set interface, as well as a k-d tree to hold the model's display points that lie on the surface itself. This sparse representation of voxels and surface points lets us create and modify high resolution level-set models with modest memory requirements, while allowing fast data access/modifications and interactive graphics updates. The data structures also support out-of-the-box editing, i.e.~no bounding box limits the surface editing region, a restriction common when utilizing 3-D arrays. We formally define the level-set representation and demonstrate its interactive performance and scalability through manipulation of high-resolution level-set surface models.
+
+- id: publication3
+  modal-id: 3
+  title: Interactive Free-Form Level-Set Surface-Editing Operators
+  authors: M. Eyiyurekli and D. Breen 
+  img: cg10.png
+  alt: image-alt
+  pubInfo: Computers & Graphics, Vol. 34 No. 5, 2010, pp. 621-638
+  link: img/publications/CG09.pdf
+  description: We present a set of interactive, free-form editing operators for direct manipulation of level-set models. The mathematics, algorithms and techniques needed to implement numerous level-set modeling capabilities have been developed. The operators have been combined with an OpenGL interface and the VISPACK level-set library to create a preliminary interactive level-set modeling system. VISPACK’s narrow-band data structures have been extended to localize all computations and updates to optimize running time. We describe the level- set speed functions that implement the surface-editing operators. A level-set surface can be edited through a click-sketch-and-pull interface that allows a user to identify a point or Region-of-Influence (ROI) to be modified on the surface. The user may then pull a point or a curve within the ROI to produce a free-form surface manipulation. Additional operators include surface detailing, carving and smoothing, as well as a sketch-based technique that pulls the surface toward a profile curve.
+
+- id: publication4
+  modal-id: 4
+  title: Editing Level-Set Models with Sketched Curves
+  authors: M. Eyiyurekli, C. Grimm and D. Breen 
+  img: sbim09.jpg
+  alt: image-alt
+  pubInfo: Proceedings of Eurographics/ACM Symposium on Sketch-Based Interfaces and Modeling, August 2009, pp. 45-52
+  link: img/publications/CG09.pdf
+  description: Level set models are deformable implicit surfaces where the deformation is controlled by a speed function in the level set partial differential equation (PDE). These models are widely used in computer graphics applications due to their implicit definition, low-level volumetric representation and the powerful numerical techniques used to produce the PDE-based deformation. We present a set of interactive sketch-based level-set surface editing operators. These operators allow a user to sketch curves above or on a level-set surface in order to edit the surface’s shape. Once the curves are sketched the surface interactively evolves to locally fit to the curves. A user may then modify the curves in order to refine the shape of the model. The mathematics, algorithms and techniques needed to implement numerous sketch-based level set modeling capabilities are described. The speed functions that produce the surface deformations within the context of solving the level-set PDE are detailed. Several examples are presented to demonstrate the flexibility and usefulness of the editing operators.
+
+- id: publication5
+  modal-id: 5
+  title: Localized Editing of Catmull-Rom Splines
+  authors: M. Eyiyurekli and D. Breen 
+  img: cad1.png
+  alt: image-alt
+  pubInfo: Computer-Aided Design and Applications, Vol. 6, No. 3, 2009, pp. 307-316
+  link: img/publications/CAD09_Final_submission.pdf
+  description: Catmull-Rom (C-R) splines offer many useful modeling properties, such as affine invariance, global smoothness, and local control. They are therefore of great interest to Computer Aided Design (CAD) users. C-R splines are easily evaluated and are a good choice for interactive applications because they interpolate their control points and therefore provide an intuitive way to represent and edit curves in these applications. We have developed an interactive free-form surface-editing framework that uses Catmull-Rom splines for sketch-based editing. Mouse strokes are translated into splines that are used to define free-form surface deformations. Direct control point manipulation is provided for the modification of the splines. Unfortunately, the definition of C-R splines dictates that moving one control point only affects a small, fixed portion of the curve. In order to provide greater flexibility, control and expressiveness, we have developed techniques that expand and generalize the result of modifying one C-R control point. The techniques allow the user to define the range and type of influence that manipulation of a single control point may produce on a C-R curve, providing a versatile and powerful localized curve editing capability.
+
+- id: publication6
+  modal-id: 6
+  title: Chemotaxis-based Sorting of Self-Organizing Heterotypic Agents
+  authors: M. Eyiyurekli, L. Bai, P. Lelkes and D. Breen
+  img: cells4.jpg
+  alt: image-alt
+  pubInfo: Proceedings of 25th ACM Symposium on Applied Computing, March 2010, pp. 1315-1322
+  link: #
+  description: Cell sorting is a fundamental phenomenon in morphogenesis, which is the process that leads to shape formation in living organisms. The sorting of heterotypic cell populations is produced by a variety of inter-cellular actions, e.g. differential chemotactic response, adhesion and motility. Via a process called chemotaxis, living cells respond to chemicals released by other cells into the environment. Each cell can respond to the stimulus by moving in the direction of the gradient of the cumulative chemical field detected at its surface. Inspired by the biological phenomena of chemotaxis and cell sorting in heterotypic cell aggregates, we propose a chemotaxis-based algorithm for the sorting of self-organizing heterotypic agents. In our algorithm two types of agents are initially randomly placed in a toroidal environment. Agents emit a chemical signal and interact with nearby agents. Given the appropriate parameters, the two kinds of agents self-organize into a complex aggregate consisting of a group of one type of agents surrounded by agents of the second type. This paper describes the chemotaxis-based sorting algorithm, the behaviors of our self-organizing heterotypic agents, evaluation of the final aggregates and parametric studies of the results.
+
+- id: publication7
+  modal-id: 7
+  title: A Computational Model of Chemotaxis-based Cell Aggregation
+  authors: M. Eyiyurekli, P. Manley, P. Lelkes and D. Breen 
+  img: aggregation4.jpg
+  alt: image-alt
+  pubInfo: BioSystems, Vol. 93, No. 3, pp. 226-239, September 2008
+  link: #
+  description: We present a computational model that successfully captures the cell behaviors that play important roles in 2-D cell aggregation. A virtual cell in our model is designed as an independent, discrete unit with a set of parameters and actions. Each cell is defined by its location, size, rates of chemoattractant emission and response, age, life cycle stage, proliferation rate and number of attached cells. All cells are capable of emitting and sensing a chemoattractant chemical, moving, attaching to other cells, dividing, aging and dying. We validated and fine-tuned our in silico model by comparing simulated 24-h aggregation experiments with data derived from in vitro experiments using PC12 pheochromocytoma cells. Quantitative comparisons of the aggregate size distributions from the two experiments are produced using the Earth Mover's Distance (EMD) metric. We compared the two size distributions produced after 24 h of in vitro cell aggregation and the corresponding computer simulated process. Iteratively modifying the model's parameter values and measuring the difference between the in silico and in vitro results allow us to determine the optimal values that produce simulated aggregation outcomes closely matched to the PC12 experiments. Simulation results demonstrate the ability of the model to recreate large-scale aggregation behaviors seen in live cell experiments. 
+
+- id: publication8
+  modal-id: 8
+  title: An Emergent System for Self-Aligning and Self-Organizing Shape Primitives
+  authors: L. Bai, M. Eyiyurekli and D. Breen
+  img: cells2.jpg
+  alt: image-alt
+  pubInfo: Proceedings of Second IEEE International Conference on Self-Adaptive and Self-Organizing Systems, October 2008, pp. 445-454
+  link: #
+  description: Motivated by the natural phenomenon of living cells self-organizing into specific shapes and structures, we present an emergent system that utilizes evolutionary computing methods for designing and simulating self-aligning and self-organizing shape primitives. Given the complexity of the emergent behavior, genetic programming is employed to control the evolution of our emergent system. The system has two levels of description. At the macroscopic level, a user-specified, pre-defined shape is given as input to the system. The system outputs local interaction rules that direct morphogenetic primitives (MP) to aggregate into the shape. At the microscopic level, MPs follow interaction rules based only on local interactions. All MPs are identical and do not know the final shape to be formed. The aggregate is then evaluated at the macroscopic level for its similarity to the user-defined shape. In this paper, we present (1) an emergent system that discovers local interaction rules that direct MPs to form user-defined shapes, (2) the simulation system that implements these rules and causes MPs to self-align and self-organize into a user-defined shape, and (3) the robustness and scalability qualities of the overall approach.
+
+- id: publication9
+  modal-id: 9
+  title: Self-Organizing Primitives for Automated Shape Composition
+  authors: L. Bai, M. Eyiyurekli and D. Breen
+  img: shape1.jpg
+  alt: image-alt
+  pubInfo: Proceedings of Shape Modeling International 2008 Conference, June 2008, pp. 147-154
+  link: #
+  description: Motivated by the ability of living cells to form specific shapes and structures, we present a computational approach using distributed genetic programming to discover cell-cell interaction rules for automated shape composition. The key concept is to evolve local rules that direct virtual cells to produce a self-organizing behavior that leads to the formation of a macroscopic, user-defined shape. The interactions of the virtual cells, called Morphogenic Primitives (MPs), are based on chemotaxis-driven aggregation behaviors exhibited by actual living cells. Cells emit a chemical into their environment. Each cell responds to the stimulus by moving in the direction of the gradient of the cumulative chemical field detected at its surface. MPs, though, do not attempt to completely mimic the behavior of real cells. The chemical fields are explicitly defined as mathematical functions and are not necessarily physically accurate. The functions are derived via a distributed genetic programming process. A fitness measure, based on the shape that emerges from the chemical-field-driven aggregation, determines which functions will be passed along to later generations. This paper describes the cell interactions of MPs and a distributed genetic programming method to discover the chemical fields needed to produce macroscopic shapes from simple aggregating primitives.
